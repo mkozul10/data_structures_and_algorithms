@@ -135,6 +135,3 @@ linkedList.add(4);
 console.log('Size: ', linkedList.size());
 console.log(linkedList.print());
 console.log('Size: ', linkedList.size());
-
-
-
