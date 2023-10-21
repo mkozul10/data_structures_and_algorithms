@@ -5,7 +5,6 @@ function merge(left, right) {
       if (left[0] < right[0]) sortedArr.push(left.shift());
       else sortedArr.push(right.shift());
     }
-    // combining the three arrays
     return [...sortedArr, ...left, ...right]
   }
   merge([1, 4], [2, 6, 9]) // [1, 2, 4, 6, 9]
