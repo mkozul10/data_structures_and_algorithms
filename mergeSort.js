@@ -16,4 +16,5 @@ function mergeSort(arr) {
   let right = mergeSort(arr.slice(mid))
   return merge(left, right)
 }
-  console.log(mergeSort([3, 5, 8, 5, 99, 1])); // [1, 3, 5, 5, 8, 99]
+
+console.log(mergeSort([3, 5, 8, 5, 99, 1])); // [1, 3, 5, 5, 8, 99] 
